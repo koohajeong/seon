@@ -1,0 +1,59 @@
+/* 아래에서 위로 슬라이드 */
+@keyframes slide {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* SEON HOSPITAL */
+@keyframes seon {
+    from {
+        right: -700px;
+    }
+    to {
+        right: -40px;
+    }
+}
+@keyframes seon-re {
+    from {
+        right: -40px;
+    }
+    to {
+        right: -700px;
+    }
+}
+
+/* notice */
+@keyframes notice {
+    from {
+        left: -700px;
+    }
+    to {
+        left: 0;
+    }
+}
+@keyframes notice-re {
+    from {
+        left: 0;
+    }
+    to {
+        left: -700px;
+    }
+}
+
+/* notice > h2 */
+@keyframes notice-h2 {
+    from {
+        transform: translate(-50%, 100px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-50%, 50px);
+        opacity: 1;
+    }
+}
